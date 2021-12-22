@@ -1,6 +1,6 @@
 # Born2BeRoot
 
-Quatrième projet de [42](https://42.fr/), le but est de créer une machine virtuelle avec des partitions chiffrés, une politique de mot de passe forte ainsi que de créer un script de monitorage.
+Quatrième projet de [42](https://42.fr/), le but est de créer une machine virtuelle avec des partitions chiffrées, une politique de mot de passe forte ainsi que de créer un script de monitorage.
 
 Les bonus consistent à auto héberger un site web avec le CMS WordPress et ajouter un service supplémentaire, dans cet exemple, un serveur Minecraft.
 
@@ -10,7 +10,7 @@ Les bonus consistent à auto héberger un site web avec le CMS WordPress et ajou
 
 #### Mise en place de la machine virtuel.
 - [x] Installer VirtualBox.
-- [x] Créer une machine virtuel avec 8Gio de stockage, 4Gio de RAM, carte réseau en mode NAT.
+- [x] Créer une machine virtuelle avec 8Gio de stockage, 4Gio de RAM, carte réseau en mode NAT.
 
 #### Installation de Debian.
 - [x] Téléchargement de l'ISO Debian [stable net install](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.1.0-amd64-netinst.iso) et lancer l'installation.
@@ -50,7 +50,7 @@ Les bonus consistent à auto héberger un site web avec le CMS WordPress et ajou
 
    - 4. Redémarrer la machine virtuelle `sudo reboot`.
   
-- [x] Copier l'historique des commandes exécutés avec le programme `sudo` dans un fichier distinct.
+- [x] Copier l'historique des commandes exécutées avec le programme `sudo` dans un fichier distinct.
    - 1. Éditer le fichier de configuration de `sudo` grace à `nano /etc/sudoers` et y ajouter :
 
           ```bash
