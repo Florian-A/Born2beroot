@@ -1,0 +1,25 @@
+[Unit]
+Description=Minecraft server
+Wants=network.target
+After=local-fs.target network.target
+
+[Service]
+User=minecraft
+Group=minecraft
+UMask=0027
+
+KillMode=none
+SuccessExitStatus=0 1 255
+
+NoNewPrivileges=true
+PrivateDevices=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=full
+
+WorkingDirectory=/opt/minecraft
+ExecStart=/usr/bin/java -Xms1024M -Xmx1024M -jar server.jar --nogui
+ExecStop=/usr/bin/killall -user minecraft
+
+[Install]
+WantedBy=multi-user.target
