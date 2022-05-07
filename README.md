@@ -1,4 +1,4 @@
-# Born2BeRoot
+<h1 align="center">Born2BeRoot</h1>
 
 Quatrième projet de [42](https://42.fr/), le but est de créer une machine virtuelle avec des partitions chiffrées, une politique de mot de passe forte ainsi que de créer un script de monitorage.
 
